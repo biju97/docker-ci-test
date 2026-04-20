@@ -1,0 +1,1 @@
+echo console.log("Hello, Distroless!222222"); > main.js
