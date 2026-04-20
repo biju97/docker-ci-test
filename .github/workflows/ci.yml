@@ -32,4 +32,4 @@ jobs:
         run: |
           docker tag ${{ secrets.DOCKERHUB_USERNAME }}/my-app:${{ github.sha }} ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/my-app:${{ github.sha }}
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/my-app:latest 
